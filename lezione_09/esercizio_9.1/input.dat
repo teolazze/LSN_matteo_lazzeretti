@@ -1,0 +1,5 @@
+
+SIMULATION_TYPE        square
+N_CITY                 34
+N_ITERATION            1000
+N_PATH                 1000

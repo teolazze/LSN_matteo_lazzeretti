@@ -1,0 +1,6 @@
+
+SIMULATION_TYPE        file
+N_CITY                 110
+N_ITERATION            2500
+N_PATH                 3000
+PARALLEL               0
