@@ -1,0 +1,1 @@
+Sono uno studente della triennale, questa esercitazione non è da consegnare
