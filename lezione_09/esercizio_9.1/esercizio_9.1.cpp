@@ -87,7 +87,7 @@ int main(int argc, char *argv[]) {
     for (int i = 0; i < N_iter; i++) {
         my_syst.crossover2(0.7, 1.6);  // Perform crossover with specified probability and potential
         my_syst.mutation(0.1, 0.1, 0.1, 0.1);  // Perform mutation with specified probabilities
-        my_syst.sortL2(cities);  // Sort paths based on L2 distance
+        my_syst.sortL1(cities);  // Sort paths based on L1 distance
         my_syst.check();  // Validate paths after operations
         my_syst.restart();  // Restart paths
         my_syst.printfirstpath(ffout, cities);  // Print the first path to file

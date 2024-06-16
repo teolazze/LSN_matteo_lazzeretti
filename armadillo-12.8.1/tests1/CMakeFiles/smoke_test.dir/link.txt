@@ -1,0 +1,1 @@
+/usr/bin/c++  -O2 -rdynamic CMakeFiles/smoke_test.dir/smoke_test.cpp.o -o smoke_test  -Wl,-rpath,/home/matteo/Documenti/LSN2024/NSL_SIMULATOR/armadillo-12.8.1 ../libarmadillo.so.12.8.1 -lblas -llapack -larpack -lsuperlu 

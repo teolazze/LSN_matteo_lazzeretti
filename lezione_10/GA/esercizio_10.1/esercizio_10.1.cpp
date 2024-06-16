@@ -89,7 +89,7 @@ int main(int argc, char *argv[]) {
     for (int i = 0; i < N_iter; i++) {
         my_syst.crossover2(0.8, 2.2);  // Operazione di crossover sui percorsi
         my_syst.mutation(0.25, 0.1, 0.1, 0.2);  // Operazione di mutazione sui percorsi
-        my_syst.sortL2(cities);  // Riordinamento dei percorsi secondo un'altra metrica
+        my_syst.sortL1(cities);  // Riordinamento dei percorsi secondo la metrica
         my_syst.check();  // Controllo dell'integrità del sistema dopo le operazioni
         my_syst.migration(rank, size, p_migr);  // Operazione di migrazione tra processi
         my_syst.restart();  // Riavvio del sistema per la prossima iterazione

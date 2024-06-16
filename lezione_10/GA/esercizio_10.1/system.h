@@ -23,10 +23,10 @@ public:
     double getx() const { return _x; }
     double gety() const { return _y; }
     double distance_L1(const city& c) const {
-        return abs(c.getx() - _x) + abs(c.gety() - _y);
+        return sqrt(pow(c.getx() - _x, 2) + pow(c.gety() - _y, 2));
     }
     double distance_L2(const city& c) const {
-        return sqrt(pow(c.getx() - _x, 2) + pow(c.gety() - _y, 2));
+        return pow(c.getx() - _x, 2) + pow(c.gety() - _y, 2);
     }
 };
 
